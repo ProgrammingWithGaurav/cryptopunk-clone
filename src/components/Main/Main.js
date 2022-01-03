@@ -8,10 +8,7 @@ function Main({ selectedPunk, punkListData }) {
     const [activePunk, setActivePunk] = useState(punkListData[selectedPunk]);
     useEffect(() => {
         setActivePunk(punkListData[selectedPunk])
-    }, [selectedPunk])
-
-    
-    
+    }, [selectedPunk, punkListData])
 
     return (
         <div className="main">
