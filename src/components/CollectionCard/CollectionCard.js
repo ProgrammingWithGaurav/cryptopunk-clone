@@ -9,7 +9,7 @@ function CollectionCard({ id, name, traits, image }) {
             <img src={image} alt='' />
             <div className="details">
                 <div className="name">
-                    {name} <div className="id"> .#${id}</div>
+                    {name} <div className="id"> .#{id}</div>
                 </div>
             </div>
             <div className="priceContainer">
